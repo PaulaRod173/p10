@@ -18,14 +18,18 @@
             height: auto;
         }
         .alegreya-sans-regular {
-        font-family: "Alegreya Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+            font-family: "Alegreya Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
         .marcellus-regular {
-        font-family: "Marcellus", serif;
-        font-weight: 400;
-        font-style: normal;
+            font-family: "Marcellus", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        body{
+            display: flex;
+            flex-direction: row;
         }
         .card_profile{
             padding: 20px;
@@ -130,6 +134,53 @@
             width: 20px;
             height: 20px;
         }
+        
+        .card_pink{
+            width: 282px;
+            height: 275px;
+            background-color: #E6D1E2;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card_pink header{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            flex-grow: 1;
+        }
+        .card_pink header .apart1{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .card_pink header h1{
+            margin: 0 0 7px 0;
+            text-align: left;
+            font-size: 60px;
+        }
+        .card_pink header img{
+            margin: 0 0 7px 0;
+            text-align: right;
+            width: 55px;
+            height: 55px;
+        }
+        .card_pink header h2{
+            margin: 20px 0 7px 0;
+            text-align: left;
+            font-size: 20px;
+        }
+        .card_pink footer{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .card_pink footer img{
+            width: 20px;
+            height: 20px;
+        }
     </style>
 </head>
 <body>
@@ -163,6 +214,25 @@
             <div class="apart2">
                 <h2 class="alegreya-sans-regular">Growth On Yearly <br>
                 Average</h2>
+            </div>
+        </header>
+        <footer>
+            <div class="puntets">
+                <img src="img/Union.svg" alt="">
+            </div>
+        </footer>
+    </div>
+        <div class="card_pink">
+        <header>
+            <div class="apart1">
+                <h1 class="marcellus-regular">29</h1>
+                <div class="cercle">
+                    <img src="img/Ellipse 3.svg" alt="">
+                </div>
+            </div>
+            <div class="apart2">
+                <h2 class="alegreya-sans-regular">Active Investment <br>
+                Funds</h2>
             </div>
         </header>
         <footer>
